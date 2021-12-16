@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useMoralis } from "react-moralis";
+import Background from "../assets/poster.png";
 
 function Login() {
   const { authenticate } = useMoralis();
@@ -15,17 +16,13 @@ function Login() {
         />
         <button
           onClick={authenticate}
-          className="bg-yellow-500 rounded-lg p-5 font-bold animate-pulse hover:scale-110"
+          className="bg-yellow-500 rounded-lg p-5 font-bold animate-bounce hover:scale-110"
         >
           Login to Metaverse
         </button>
       </div>
       <div className="w-full h-screen">
-        <Image
-          src="https://wallpaperaccess.com/full/3648367.jpg"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={Background} layout="fill" objectFit="cover" />
       </div>
     </div>
   );
