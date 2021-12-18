@@ -1,5 +1,9 @@
 module.exports = {
   images: {
-    domains: ["wallpaperaccess.com", "www.freeiconspng.com"],
+    domains: [
+      "wallpaperaccess.com",
+      "www.freeiconspng.com",
+      "avatars.dicebear.com",
+    ],
   },
 };
