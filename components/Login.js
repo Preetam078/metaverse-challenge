@@ -15,7 +15,7 @@ function Login() {
         </div>
         <Image
           className="rounded-full overflow-hidden object-cover"
-          src="https://www.freeiconspng.com/uploads/unlock-icon-18.png"
+          src="https://149360821.v2.pressablecdn.com/wp-content/uploads/2017/12/Reator-Arc.jpg"
           height={200}
           width={200}
         />

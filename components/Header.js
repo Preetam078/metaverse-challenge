@@ -9,19 +9,14 @@ function Header() {
   return (
     <div className=" sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-500">
       <div className="text-white">
-        <div className="relative h-24 w-24 mx-auto hidden lg:inline-grid">
-          <Image
-            layout="fill"
-            className="rounded-full"
-            src="https://www.freeiconspng.com/uploads/unlock-icon-18.png"
-          />
-        </div>
         <div className="text-left lg:text-center">
           <div className=" relative h-48 w-48 lg:mx-auto border-pink-500 border-8 rounded-full">
             <Avatar logoutOnPress />
           </div>
           <h1 className=" text-3xl">Welcome to the Metaverse</h1>
-          <h2 className="text-white text-3xl truncate">{user.getUsername()}</h2>
+          <h2 className="text-white text-3xl truncate font-black mt-2">
+            {user.getUsername().toUpperCase()}
+          </h2>
 
           <ChangeUsername />
         </div>

@@ -15,7 +15,7 @@ function Messeges() {
         .ascending("createdAt")
         .greaterThan(
           "createdAt",
-          new Date(Date.now() - 1000 * 60 * MINS_DURATION)
+          new Date(Date.now() - 1000 * 600000000 * MINS_DURATION)
         ),
     [],
     {
